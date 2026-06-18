@@ -1,0 +1,10 @@
+---
+- hosts: localhost
+  connection: local
+  tasks:
+    - community.docker.docker_container:
+        name: myhello
+        image: eomjinyoung/myhello:latest
+        state: started
+        ports:
+          - "80:8080"
