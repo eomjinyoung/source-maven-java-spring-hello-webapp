@@ -6,5 +6,7 @@
         name: myhello
         image: eomjinyoung/myhello:latest
         state: started
+        pull: always
+        recreate: true
         ports:
           - "80:8080"
