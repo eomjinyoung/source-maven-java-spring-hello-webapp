@@ -31,8 +31,8 @@ pipeline {
   }
   environment {
     REGISTRY    = 'docker.io'
-    USERNAME    = 'myusername'
-    IMAGE_NAME  = 'myapp'
+    USERNAME    = 'eomjinyoung'
+    IMAGE_NAME  = 'myhello'
     DOCKERFILE  = 'Dockerfile'
     IMAGE_TAG   = "${REGISTRY}/${USERNAME}/${IMAGE_NAME}"
   }
